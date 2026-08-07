@@ -1,7 +1,7 @@
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 // Toggle this to false once your friend's FastAPI backend is running
-const USE_MOCK_DATA = true;
+const USE_MOCK_DATA = false;
 
 type Station = { id: number; name: string; lat: number; lon: number };
 
